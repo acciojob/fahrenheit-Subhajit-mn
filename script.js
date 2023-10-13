@@ -1,7 +1,7 @@
 function toFahrenheit(celsius) {
  // Write your code here
 	let F = (9 * celsius) / 5 + 32;
-	return F;
+	return F.toFixed(2);
 }
 
 // Do not change the code below
